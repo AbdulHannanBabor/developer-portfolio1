@@ -32,6 +32,12 @@ section{
 
 }
 
+section{
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
 .half img{
 
     width: 80%;
@@ -50,5 +56,12 @@ section{
     border-radius:  5px;
     
 
+}
+
+.dream-big{
+
+    background-image: url(images/my-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
