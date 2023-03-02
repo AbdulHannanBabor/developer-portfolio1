@@ -32,7 +32,7 @@ section{
 
 }
 
-section{
+.flex-continer{
     display: flex;
     margin-bottom: 100px;
 
@@ -43,6 +43,10 @@ section{
     width: 80%;
     
    
+}
+
+.page{
+    text-align: center;
 }
 
 .button{
@@ -65,3 +69,43 @@ section{
     background-position: right;
 }
 
+.last{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.box{
+
+    box-shadow: 10px 10px 80px crimson;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 50px;
+    
+
+}
+
+#border{
+    border-left: 20px solid;
+    border-image: liner-gradient(rgb(21, 255, 0), rgb(80, 6, 15));
+    border-image-slice
+    : 1;
+
+}
+
+#border2{
+
+    border-left: 20px solid;
+    border-image: liner-gradient(rgb(21, 255, 0), rgb(80, 6, 15));
+    border-image-slice
+    : 1;
+
+    
+}
+
+#f{
+    text-align: center;
+}
